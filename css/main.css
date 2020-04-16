@@ -1,33 +1,55 @@
 body {
     background-color: #4db9de;
+    
 }
 
 .container {
     width: 800px;
     margin-top: 100px;
     margin-left: calc( 50% - 400px );  
+
+    position: relative;
 }
 .container > .left {
     width: 40%;
+    padding: 50px;
     float: left;
     background-color:#5284dc;
+    color: #fff;
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+    bottom: 20px;
 }   
     .left > h1{
+        font-weight: normal;
+        font-size: 40px;
     }
     .left > .links{
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+        right:50px
+    
     }
         .left > .links > a{
-
+            color: #fff;
+        
         }
         .left > links > span {
             
         }
     .container > .right {
         padding: 60px;
-        float: left;
+        float: right;
         width: 60%;
         background-color: #fff;
-        position: relative;
+        
     }
         .right > .close {
             width: 60px;
