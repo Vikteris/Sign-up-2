@@ -1,13 +1,16 @@
+body {
+    background-color: #4db9de;
+}
+
 .container {
     width: 800px;
     margin-top: 100px;
-    margin-left: calc( 50% - 400px );
-    background-color: red;   
+    margin-left: calc( 50% - 400px );  
 }
 .container > .left {
     width: 40%;
     float: left;
-    background-color: yellow;
+    background-color:#5284dc;
 }   
     .left > h1{
     }
@@ -23,7 +26,7 @@
         padding: 60px;
         float: left;
         width: 60%;
-        background-color: aqua;
+        background-color: #fff;
     }
         .right > .close {
         }
@@ -40,15 +43,39 @@
             }
                 form > .form-row > label {
                     width: 100%;
+                    color: grey;
+                    font-size: 15px;
+                    line-height: 20px;
+                    text-transform: uppercase;
                 }
                 form > .form-row > input {
                     width: 100%;
+                    font-size: 22px;
+                    line-height: 40px;
+                    border: none;
+                    border-bottom: 2px solid #cccc;
                 } 
+                form > .form-row > input:focus {
+                    outline: none;
+                }   
                 form > .form-row > .btn {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    background-color: #015EDA;
+                    color: #fff;
+                    font-size: 20px;
+                    line-height: 40px;
+                    border-radius: 20px;
+
                 }
                 form > .form-row > span {
-                    display: inline;
+                    line-height: 40px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+
                 }
                 form > .form-row > a {
-                    display: inline;
+                    text-decoration: none;
+                    color: #36f;
+                    line-height: 40px;
                 }
