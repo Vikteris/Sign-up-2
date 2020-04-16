@@ -27,8 +27,16 @@ body {
         float: left;
         width: 60%;
         background-color: #fff;
+        position: relative;
     }
         .right > .close {
+            width: 60px;
+            line-height: 60px;
+            text-align: center;
+            font-size: 30px;
+            position: absolute;
+            top: 0;
+            right: 0;
         }
         form{
             width: 100%;
